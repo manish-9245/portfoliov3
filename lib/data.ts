@@ -23,10 +23,6 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
@@ -68,8 +64,8 @@ export const projectsData = [
   {
     title: "CodeSnip",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "CodeEditor designed to capture code snippets as .png and .gif files. Customize your code animations, background gradients, padding, file type, filename, and IDE theme. ",
+    tags: ["React", "Tailwind", "CSS", "gifshot", "prismjs"],
     imageUrl: projectone,
   },
   {

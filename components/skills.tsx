@@ -33,7 +33,7 @@ export default function Skills() {
       }}
     >
       <SectionHeading>About Me</SectionHeading>
-      <p style={{marginBottom:"5rem"}}>I'm a professional Software Engineer from <strong>India </strong><br></br>During my college days I was extensively involved in Hackathons, Freelancing and Coding in general.<br></br>From working 24 hours without sleep and <strong>pitching my product in Hackathons</strong> to, <strong>Freelancing</strong> for startups to <strong>help them raise funding with MVP </strong>in a very short time to, working as a <strong>Software Engineer with the worlds biggest FinTech company</strong> to build products that impact millions of lives,<br></br>I bring diversified experiences to the table </p>
+      <p style={{marginBottom:"5rem"}}><strong>I am a seasoned Software Engineer from India</strong> with extensive experience in <strong>Hackathons</strong>, <strong>Freelancing</strong>, and <strong>Software Development</strong>. Throughout my college years, I thrived in the high-pressure environment of <strong>Hackathons</strong>, coding non-stop for 24 hours and pitching winning products. In the freelance world, I excelled at rapidly developing <strong>MVPs</strong> for startups, helping secure vital funding. Additionally, I've contributed to one of the world's largest <strong>FinTech companies</strong>, working on impactful products that touch millions of lives. My diverse experiences bring a broad skill set and problem-solving ability to any project.</p>
       <SectionHeading > My Weapons </SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800" style={{marginTop:"3rem"}}>
         {skillsData.map((skill, index) => (
