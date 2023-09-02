@@ -69,48 +69,51 @@ export default function Intro() {
         <span className="font-bold">full-stack developer<br></br></span> with{" "}
         <span className="font-bold">deep interest</span> in UI/UX</motion.h1>
 
-      <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.5,
-        }}
-      >
-        
+        <motion.div
+  className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    delay: 0.5,
+  }}
+>
+  <div className="flex flex-wrap items-center gap-2">
+    <a
+      className="group bg-dark px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-100 transition cursor-pointer borderBlack dark:bg-black/10"
+      href="https://drive.google.com/file/d/1eL24sRH_GxT9XLrFynp_IsVoriajaM00/view?usp=sharing"
+      download
+    >
+      Download CV{" "}
+      <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+    </a>
+  </div>
 
-        <a
-          className="group bg-dark px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-100 transition cursor-pointer borderBlack dark:bg-black/10"
-          href="https://drive.google.com/file/d/1eL24sRH_GxT9XLrFynp_IsVoriajaM00/view?usp=sharing"
-          download
-        >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+  <div className="flex flex-wrap gap-2">
+    <a
+      className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      href="https://www.linkedin.com/in/manishtiwari13/"
+      target="_blank"
+    >
+      <BsLinkedin />
+    </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/manishtiwari13/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+    <a
+      className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      href="https://github.com/manish-9245"
+      target="_blank"
+    >
+      <FaGithub />
+    </a>
+    <a
+      className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      href="https://twitter.com/manisht_13"
+      target="_blank"
+    >
+      <FaTwitter />
+    </a>
+  </div>
+</motion.div>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/manish-9245"
-          target="_blank"
-        >
-          <FaGithub />
-        </a>
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://twitter.com/manisht_13"
-          target="_blank"
-        >
-          <FaTwitter />
-        </a>
-      </motion.div>
     </section>
   );
 }
